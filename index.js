@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-app.get("/", (response, request) => {
+app.get("/", (request, response) => {
     response.send("working...")
 })
 
